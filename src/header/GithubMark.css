@@ -1,0 +1,26 @@
+
+
+.github-mark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.github-mark:hover {
+    cursor: pointer;
+}
+
+.github-img {
+    width: 25px;
+    height: 25px;
+    transition: 0.1s;
+}
+
+.github-mark:hover .github-img {
+    width: 30px;
+    height: 30px;
+}

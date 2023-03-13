@@ -1,0 +1,52 @@
+
+.page-header {
+    background-color: var(--main-contrast);
+    color: var(--main-color);
+    height: 55px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-container {
+    flex: auto;
+}
+
+.logo {
+    margin: 0px;
+    margin-left: 10px;
+    font-size: 27px;
+}
+
+.header-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    flex: initial;
+
+    list-style-type: none;
+}
+
+.page-link {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.page-link:hover {
+    cursor: pointer;
+}
+
+.page-img {
+    width: 25px;
+    height: 25px;
+}
+
+.github-mark {
+    flex: initial;
+}
+

@@ -1,6 +1,6 @@
 import './HomePage.css';
 
-import Header from './Header';
+import Header from './header/Header';
 
 function HomePage() {
   return (

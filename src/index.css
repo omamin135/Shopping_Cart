@@ -1,0 +1,14 @@
+
+* {
+    --main-color: #E9E9E6;
+    --main-contrast: #2E2E2E;
+    --accent-color: #D67B60;
+
+    --medium-gray: #898989;
+    --white: #F9F9F9;
+}
+
+
+body {
+    margin: 0px;
+}
