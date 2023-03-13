@@ -1,0 +1,63 @@
+
+
+.card {
+    --card-info-margin: 10px;
+
+    border: 2px solid black;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.img-field {
+    background-color: blue;
+    height: 62.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+
+.info-field {
+    height: 37.5%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-name {
+    background-color: green;
+    flex: initial;
+    margin: var(--card-info-margin);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.price {
+    flex: initial;
+    margin: var(--card-info-margin);
+    margin-top: -5px;
+    font-size: 20px;
+}
+
+.to-cart-button-container {
+    flex: auto;
+    position: relative;
+    background-color: violet;
+}
+
+.to-cart-button{
+    position: absolute;
+    bottom: var(--card-info-margin);
+    right: var(--card-info-margin);
+}
+
+
+
